@@ -1,0 +1,242 @@
+body{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    font-family: 'Reenie Beanie', cursive;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.432), rgb(255, 255, 255)),url("img/kelly-jean-GOR_eBd_2bk-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.356), rgba(255, 255, 255, 0)),url("img/east-meets-dress-uFwIsgrL6rk-unsplash.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:top;
+    height: 900px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;  
+    position: relative;
+   
+}
+.isititle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding:50px;
+    width: 1440px;
+    position: relative;
+}
+h1{
+    display:flex;
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    width: auto;
+    margin: 20px;
+    padding: 5px;
+    text-shadow: 2px 2px 6px black;
+    
+}
+h2{
+    color: cornsilk;
+    text-shadow: 2px 2px 6px black;
+    font-size: 50px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.tanggal{
+    color: cornsilk;
+    text-shadow: 2px 2px 6px black;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.backmusic{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    width: 10px;
+    height: 10px;
+}
+.isiundangan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding:0px;
+    position: relative;
+}
+.katakata{
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    text-justify: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.namapengantin{
+    text-align: center;
+    display: inline;
+    color: black;
+    text-shadow: none;
+}
+
+.alamat{
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    text-justify: auto;
+    text-align: center;
+    font-size: 30px;
+}
+.gambar2{
+    width: auto;
+
+}
+
+.gbr1{
+    display: flex;
+    background-image: url("img/east-meets-dress-SftvbKb2zoM-unsplash.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin: 5px;
+    width: auto;
+    height: 500px;
+}
+.gbr2{
+    display: flex;
+    background-image: url("img/east-meets-dress-cyHdLXXY9PM-unsplash.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin: 5px;
+    width: auto;
+    height: 500px;
+}
+.gbr3{
+    display: flex;
+    background-image: url("img/east-meets-dress-pT-Rh-bp8EA-unsplash.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin: 5px;
+    width: auto;
+    height: 500px;
+}
+.gbr4{
+    display: flex;
+    background-image: url("img/east-meets-dress-WoLrLWpuEew-unsplash.jpg");
+    background-size: 100%;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-position:50% 30%;
+    margin: 5px;
+    width: auto;
+    height: 800px;
+}
+.maps{
+    height: auto;
+    width: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* tablets datar: */
+
+  header{
+    background-size: 120%;
+    height: 768px;
+  
+}
+}
+
+@media only screen and (max-width: 768px) {
+  /* tablets berdiri: */
+
+  header{
+    background-size: 200%;
+    height: 1024px;
+  
+}
+h1{
+  font-size: 90px;
+}
+.gbr2{
+    
+    background-size: cover;
+    height: 400px;
+}
+.gbr3{
+    
+    background-size: cover;
+    height: 500px;
+}
+.gbr4{
+    background-size: cover;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-position:center;
+    margin: 5px;
+    width: auto;
+    height: 1024px;
+}    
+}
+
+@media only screen and (max-width: 440px) {
+  /* layar smartphone: */
+
+header{
+    background-size:cover;
+    background-position:center;
+    height: 736px;
+}
+.isititle{
+    margin: 20px;
+    padding:15px;
+    width: 100%;
+    justify-items: center;
+}
+    h1{
+  font-size: 50px;
+}
+.gbr1{
+    background-size: cover;
+    background-position:center;
+    width: auto;
+    height: 500px;
+}
+.gbr2{
+    
+    background-size: 180%;
+    background-position: top;
+    height: 180px;
+}
+.gbr3{
+    background-size: 170%;
+    background-position: top;
+    height: 180px;
+}
+.gbr4{
+    background-size: cover;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-position:center;
+    margin: 5px;
+    width: auto;
+    height: 1024px;
+}    
+}
