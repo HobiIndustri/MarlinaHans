@@ -214,12 +214,23 @@ h1{
 @media only screen and (max-width: 440px) {
   /* layar smartphone: */
 
+  body{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 45% 31% auto;
+    grid-template-areas: 
+    "header"
+    "isi"
+    "gambar"
+    "peta";
+  }
+
 header{
     background-size:cover;
     background-position:center;
     height: 736px;
     background-attachment: scroll;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.356), rgb(255, 255, 255)),url("img/east-meets-dress-uFwIsgrL6rk-unsplash.jpg"); 
+     
 }
 .isititle{
     margin: 20px;
@@ -236,27 +247,34 @@ header{
     width: auto;
     height: 500px;
     background-attachment: scroll;
+    margin: 0px;
 }
 .gbr2{
     
-    background-size: 180%;
+    background-size: 100%;
     background-position: top;
     height: 180px;
     background-attachment: scroll;
+    margin: 0px;
+
+ 
 }
 .gbr3{
-    background-size: 170%;
+    background-size: 120%;
     background-position: top;
     height: 180px;
     background-attachment: scroll;
+    margin: 0px;
 }
 .gbr4{
     background-size: cover;
     background-attachment: scroll; 
     background-repeat: no-repeat;
     background-position:center;
-    margin: 5px;
+    margin: 0px;
     width: auto;
-    height: 1024px;
+    height: 550px;
 }    
 }
+
+
