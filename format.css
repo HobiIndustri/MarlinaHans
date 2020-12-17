@@ -2,11 +2,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Reenie Beanie', cursive;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.432), rgb(255, 255, 255)),url("img/kelly-jean-GOR_eBd_2bk-unsplash.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: auto;
-    position: relative;
+    
 }
 header{
     display: flex;
